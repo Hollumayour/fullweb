@@ -1,0 +1,328 @@
+nav ul li{
+   display: inline;
+  padding: 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    background-color: rgb(4, 158, 119);
+}
+nav ul{
+    margin: 0;
+    padding: 10px;
+}
+/* header styling */
+#header{
+    background-image: url(../image/cam.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#about_header{
+    background-image: url(../image/AduTUTU.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+#services_header{
+    background-image: url(../image/ggg.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+#contact_header{
+    background-image: url(../image/ggr.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+#header .button{
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#header .button:hover{
+    background-color: #707779;
+    padding: 18px 36px;
+    color: brown;
+}
+
+#header p{
+    margin-bottom: 30px;
+}
+
+.services .container{
+    display: flex;
+    justify-content: space-around;
+}
+.services .container .box{
+    background-color: rgb(4, 158, 119);
+    width: 50%;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.services h1{
+    text-align: center;
+    font-size: 50px;
+}
+.services .container .box:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 158, 119);
+    border: 3px solid #fff;
+    margin-left: 15px;
+
+}
+.services .container h4{
+    text-align: center;
+    font-size: 25px;
+}
+.services .container .box p a{
+    text-decoration: none;
+    color: rgb(65, 1, 126);
+}
+
+.about .container .col1 img{
+    height: 300px;
+    width: 400px;
+}
+
+@media screen and (max-width:580px) and (min-width: 360px) {
+    .about .container .col1 img{
+        height: 150px;
+        width: 200px;
+    }
+    .about .container .col2 h1{
+        margin-top: 300px;
+        margin-left: -200px;
+    }
+
+    
+}
+.about .container .col1, .col2{
+    width: 50%;
+}
+.about .container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 10px;
+}
+/* .about .container .col2 h1{
+    text-align: center;
+    font-size: 50px;
+} */
+
+#contact .container{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+#contact .container .col1, .col2, .col3{
+    width: 50%;
+    margin: 7px;
+}
+#contact .col1, .col3{
+    background-color: rgb(4, 158, 119);
+    padding-left: 15px;
+    color: bisque;
+}
+#contact .col3 form input{
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0;
+}
+#contact .col3 form input:hover{
+    background-color: burlywood;
+}
+#contact{
+    margin-top: 30px;
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgb(9, 77, 65);
+    color: #fff;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.credit{
+    text-align: center;
+}
+
+/* back to top styling */
+.back_to_top{
+    display: none;
+    position: fixed;
+    background-color: rgb(20, 126, 168);
+    border-radius: 4px;
+    color: #fff;
+    bottom: 10px;
+    right: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contact_info .container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#contact_info .container h4{
+    font-size: 30px;
+}
+
+#contact_info .container .col1, .col2{
+    width: 50%;
+    margin: 10px;
+}
+#contact_info .col1, .col2{
+    background-color: rgb(4, 158, 119);
+    padding: 15px;
+    color: #fff;
+}
+
+#contact_info .col2 form input{
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    margin: 10px 0;
+}
+
+#contact_info .col2 form input:hover{
+    background-color: #8d8b8b;
+}
+#contact_info .col2 form textarea:hover{
+    background-color: #8d8b8b;
+}    
+
+/* customer review styling */
+.customer_review .container{
+    max-width: 1200;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review{
+    width: calc(33.33% -20px);
+    background-color: rgb(4, 158, 119);
+    color: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment{
+    font-style: italic;
+}
+
+.customer_review h3{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.blog_post .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.post{
+    width: calc(33.33% -20px);
+    padding: 20px;
+    margin: 30px 10px 30px 10px;
+    background-color: rgb(4, 158, 119);
+    border-radius: 8px;
+    color: #fff;
+}
+.post img{
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.blog_post h4{
+    font-size: 30px;
+    text-align: center;
+}
